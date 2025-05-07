@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: #c2ddc5ee;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #294329;
+    color: #dedede;
+    text-align: center;
+    text-shadow: 0 0 5px #b1b1b10d;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+.webprueba{
+    color:#b5b5b562;
+}
+.logo-titulo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.encabezado-texto h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.encabezado-texto p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.logo {
+    width: 130px;
+    height: auto;
+}
+h1{
+    padding-bottom: 10px;
+}
+.encabezado{
+    padding-top: 100px;
+    
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.card {
+    background-color: #dadada;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 280px;
+    transition: transform 0.2s;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h2 {
+    margin: 1rem 0 0.5rem;
+}
+
+.card p {
+    padding: 0 1rem;
+}
+
+.card button {
+    margin: 1rem;
+    padding: 0.5rem 1.2rem;
+    background-color: #367c1b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.card button:hover {
+    background-color: #58ad33;
+}
+
+.faq-container {
+    background-color: #3a3a3a;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    max-width: 650px;
+    margin-right: 40px;
+    margin-left:30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.faq-container h2 {
+    color: #e0e0e0;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.faq h3 {
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.faq p {
+    color: #cccccc;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+h2 {
+    margin: 1rem;
+    padding:0,5rem 1.2rem;
+    font-family: sans-serif;
+    text-shadow: 0 0 5px #2943297c;
+    
+}
+form{
+    background-color: #bed7c1ee;
+}
+.contenido {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: flex-start;
+}
+
+.formulario{
+    border-radius: 10px;
+    padding:10px 20px;
+    width: 90%;
+    max-width: 600px;  
+    
+}
+
+input,textarea {
+    width:100%;
+    text-align: center;
+    box-sizing:border-box;
+    padding:6px 12px;
+    border-radius: 5px;
+    border:none;
+    border-left:2px solid #666;
+    resize: none;
+    
+}
+button{
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #367c1b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.compatibilidad{
+    color: #cccccc;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.titulo{
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+.detalle-perro {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin:10px;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.detalle-perro .faq-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 700px;
+}
+
+.detalle-perro .formulario {
+    flex: 1;
+    background-color: #bed7c1ee;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 700px;
+    min-width: 300px;
+}
+.descripcionperros {
+    background-color: #bed7c1ee;
+    border-radius: 10px;
+    padding: 40px;
+    margin:20px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 1000px;
+    min-width: 300px;
+    font-family: sans-serif, Geneva, Tahoma;
+    font-size: 18px;
+
+}
+.margen-sup{
+    object-fit: cover;
+    object-position: top;
+}
