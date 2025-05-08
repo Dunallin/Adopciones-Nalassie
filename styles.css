@@ -241,16 +241,23 @@ footer {
 }
 @media (max-width: 768px) {
     .detalle-perro {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column !important;
+        align-items: stretch !important;
+        padding: 1rem;
     }
 
-    .detalle-perro .faq-container,
-    .detalle-perro .formulario {
-        width: 95%;
-        max-width: 100%;
-        min-width: auto;
-        margin: 0 auto;
+    .faq-container,
+    .formulario {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        margin: 1rem 0 !important;
+        padding: 1rem !important;
+    }
+
+    .contenido {
+        margin-left: 0;
+        align-items: stretch;
     }
 
     input, textarea {
